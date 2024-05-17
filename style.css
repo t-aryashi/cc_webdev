@@ -91,6 +91,7 @@
     gap: 1vw;
 }
 .pright{
+    height: 68vh;
     display: flex;
     flex-direction: column;
     row-gap: 1vw;
@@ -162,5 +163,18 @@ h4{
 }
 /* for making responsive using media query */
 
-
-
+@media only screen and (max-width: 1100px) {
+    body {
+        font-size: small;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        font-size: smaller;
+    }
+}
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: x-small;
+    }
+}
