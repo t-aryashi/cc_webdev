@@ -77,6 +77,18 @@
     display: flex;
     gap: 1vw;
 }
+#i1{
+    width: 35vw; height: 60vh;
+}
+#i2{
+    width: 15vw; height: 60vh ;
+}
+#i3{
+    width: 10vw;height: 29vh; 
+}
+#i4{
+    width: 10vw; height: 29vh;
+}
 .tags{
     display: flex;
     align-items: center;
@@ -178,3 +190,39 @@ h4{
         font-size: x-small;
     }
 }
+@media only screen and (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    .panels{
+        flex-direction: column;
+    }
+    .pleft{
+        width: 100vw;
+    }
+    #i1{
+        width: 56vw;
+    }
+    #i2{
+        width: 32vw;
+    }
+    #sideCards{
+        margin-top: 4vh;
+        margin-left: 47vw;
+        width: 50vw;
+    }
+    .pright{
+        width: 50vw;
+    }
+    #i3{
+        width: 40vw;
+    }
+    #i4{
+        width: 40vw;
+    }
+    .card{
+        width: 50vw;
+    }
+}
+
+
